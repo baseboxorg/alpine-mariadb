@@ -1,5 +1,5 @@
-FROM alpine:3.5
-MAINTAINER Dominic Taylor <dominic@yobasystems.co.uk>
+FROM alpine:edge
+MAINTAINER CryptoPlay <docker@cryptoplay.tk>
 
 RUN apk --update add mariadb mariadb-client pwgen && \
     rm -f /var/cache/apk/*
